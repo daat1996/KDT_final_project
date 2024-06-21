@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카드 게임</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .player-cards, .opponent-cards, .number-cards {
+            border: 2px solid black;
+            padding: 10px;
+            width: 30%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="player-cards">
+            <h2>내 카드</h2>
+            <!-- 여기에 내 카드를 나타내는 HTML 코드를 추가하세요 -->
+            <img src="../static/10.jpg" width="120px">
+        </div>
+        <div class="number-cards" style="width: 60%;">
+            <h2>숫자 카드</h2>
+            <!-- 여기에 숫자 카드를 나타내는 HTML 코드를 추가하세요 -->
+            <img src="../static/inf.jpg" width="120px">
+        </div>
+        <div class="opponent-cards">
+            <h2>상대 카드</h2>
+            <!-- 여기에 상대 카드를 나타내는 HTML 코드를 추가하세요 -->
+            <img src="../static/5.jpg" width="120px">
+        </div>
+    </div>
+</body>
+</html>

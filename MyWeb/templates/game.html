@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+  <style>
+    .btn-submit {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s;
+      /* 모든 속성에 대해 0.3초 동안 트랜지션 효과 적용 */
+    }
+
+    /* 마우스를 올렸을 때의 스타일 */
+    .btn-submit:hover {
+      font-size: 14px;
+      /* 글자 크기 증가 */
+      background: linear-gradient(45deg, #4CAF50, #45a049);
+      /* 그라데이션 색상 변경 */
+    }
+  </style>
+  <title>카드게임</title>
+</head>
+
+<body
+  style="display: flex; justify-content: center;align-items: center; height: 100vh;  background-image: url('../../static/5.jpg');background-size: 100%;">
+    <center>
+    <header<center>>판타지 수학대전</header>
+    
+        <button onclick="window.location.href='/'">홈으로</button>
+
+    <div id="container">
+    <!-- <h2>카드 게임</h2> -->
+    <iframe src="start" width="1500" height="790" frameborder="0"></iframe>
+    </div>
+    </center>
+    
+    
+</body>
+
+</html>

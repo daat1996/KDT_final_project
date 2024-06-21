@@ -1,0 +1,75 @@
+no,level,force,feature,path
+1,65,71,"+,-,×,÷(1~2) 중 하나를 택할 수 있다",./data/chrcard/1.img
+38,20,27,자신의 세번째 공격시 불리하다고 생각되면 도망쳐 무승부를 만들 수 있다,./data/chrcard/38.img
+39,22,33,자신의 세번째 공격시 불리하다고 생각되면 도망쳐 무승부를 만들 수 있다,./data/chrcard/39.img
+46,18,23,×2,./data/chrcard/46.img
+47,47,47,×(1~4),./data/chrcard/47.img
+48,15,19,-(1~2),./data/chrcard/48.img
+49,37,37,공격이 실패한 후에 뒤집어진 숫자카드 중 하나를 없앨 수 있다,./data/chrcard/49.img
+50,12,31,+(1~2),./data/chrcard/50.img
+51,22,49,×3,./data/chrcard/51.img
+52,58,65,×2,./data/chrcard/52.img
+53,65,88,+(1~3),./data/chrcard/53.img
+54,70,140,×(1~3),./data/chrcard/54.img
+56,20,49,4번째 공격 기회가 오면 각성하여 무조건 이긴다,./data/chrcard/56.img
+57,3,16,,./data/chrcard/57.img
+60,120,211,숫자카드 중 하나를 연속해서 더할 수 있다,./data/chrcard/60.img
+81,24,49,,./data/chrcard/81.img
+82,23,49,,./data/chrcard/82.img
+83,25,48,,./data/chrcard/83.img
+84,30,52,,./data/chrcard/84.img
+85,26,53,,./data/chrcard/85.img
+102,52,67,상대가 뽑은 숫자 카드를 다음 카드로 통과시킬 수 있다,./data/chrcard/102.img
+103,56,88,+(7~10),./data/chrcard/103.img
+104,53,74,×(2~5),./data/chrcard/104.img
+105,58,101,×(2~3),./data/chrcard/105.img
+106,55,67,상대의 공격을 2로 나눌 수 있다,./data/chrcard/106.img
+110,70,-74,×(5~9),./data/chrcard/110.img
+113,75,142,숫자카드 중 한 장을 세 번 사용할 수 있다,./data/chrcard/113.img
+114,74,117,상대의 포스의 수에서 30을 뺄 수 있다,./data/chrcard/114.img
+115,72,139,×(3~7),./data/chrcard/115.img
+116,76,211,+(1~10),./data/chrcard/116.img
+119,80,119,상대의 포스를 60으로 나누어 생긴 나머지가 상대의 포스가 된다,./data/chrcard/119.img
+146,35,37,,./data/chrcard/146.img
+147,38,40,,./data/chrcard/147.img
+148,40,42,,./data/chrcard/148.img
+149,42,60,,./data/chrcard/149.img
+150,47,47,,./data/chrcard/150.img
+151,61,100,×(2~6),./data/chrcard/151.img
+152,62,120,+(1~8),./data/chrcard/152.img
+153,63,90,상대공격이 4번 실패하면 승리한다,./data/chrcard/153.img
+154,64,79,"+,-,×,÷(1~3)",./data/chrcard/154.img
+155,65,83,-(1~8),./data/chrcard/155.img
+156,66,110,÷(2~7),./data/chrcard/156.img
+157,67,101,"×(2~3),×(3~4) 둘 연속 사용 가능",./data/chrcard/157.img
+158,65,97,상대의 포스를 (1~10) 감소시킨다,./data/chrcard/158.img
+159,69,115,숫자카드 1장을 세번 덧셈할 수 있다,./data/chrcard/159.img
+161,72,200,상대의 공격을 1회 무력화 시킬 수 있다,./data/chrcard/161.img
+162,73,210,상대의 필살기 포인트를 1회 무력화 시킬 수 있다,./data/chrcard/162.img
+169,80,134,숫자카드 3장을 뒤집는다(1회 사용 가능),./data/chrcard/169.img
+173,100,22,상대의 공격이 실패할 때마다 포스가 두 배가 된다,./data/chrcard/173.img
+174,100,110,"+,-,×,÷(1~5)",./data/chrcard/174.img
+176,110,132,숫자카드 한 장을 두 번 사용한다,./data/chrcard/176.img
+178,110,140,레벨 80이하의 적은 봉인의 힘으로 물리친다,./data/chrcard/178.img
+179,120,211,상대의 포스를 80으로 나누어 생긴 나머지가 상대의 포스가 된다,./data/chrcard/179.img
+191,21,59,,./data/chrcard/191.img
+192,22,44,,./data/chrcard/192.img
+193,24,56,,./data/chrcard/193.img
+194,27,47,,./data/chrcard/194.img
+195,26,39,,./data/chrcard/195.img
+196,30,65,,./data/chrcard/196.img
+197,41,89,숫자카드 한 장을 제곱할 수 있다,./data/chrcard/197.img
+198,40,69,상대 포스의 수의 부호를 바꿀 수 있다,./data/chrcard/198.img
+200,40,79,+(2~8),./data/chrcard/200.img
+201,39,71,×(2~4)를 두번 사용할 수 있다,./data/chrcard/201.img
+202,42,83,"+,×(2~5)",./data/chrcard/202.img
+212,49,63,자신의 포스의 수를 사용할 수 있다,./data/chrcard/212.img
+213,50,57,자신의 포스의 수를 사용할 수 있다,./data/chrcard/213.img
+214,60,199,상대의 공격을 1회 막을 수 있다,./data/chrcard/214.img
+215,69,83,자신이 공격하기 전에 자신의 포스를 2배 시킬 수 있다,./data/chrcard/215.img
+216,65,127,숫자 카드 2장을 두 번 쓸 수 있다,./data/chrcard/216.img
+217,103,103,×(2~4)를 2번 사용 할 수 있다,./data/chrcard/217.img
+218,67,71,1부터 10의 숫자를 하나 사용할 수 있다,./data/chrcard/218.img
+219,68,67,최초 공격시 숫자카드를 세 장 뒤집는다,./data/chrcard/219.img
+224,80,137,"+,×(4~6)",./data/chrcard/224.img
+238,120,103,×(2~8)을 두 번 사용할 수 있다,./data/chrcard/238.img

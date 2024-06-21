@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insight</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-align {
+            text-align: left;
+        }
+        .right-align {
+            text-align: right;
+        }
+        .button-group {
+            position: absolute; /* 버튼 그룹을 절대 위치로 지정 */
+            bottom: 0; /* 아래쪽에 정렬 */
+            right: 0; /* 오른쪽에 정렬 */
+            
+        }
+        .button-group button {
+            margin: 5px;
+            width: 100px; /* 버튼의 너비를 설정 */
+            height: 50px; /* 버튼의 높이를 설정 */
+            font-size: 16px; /* 버튼의 글꼴 크기를 설정 */
+        }
+        .cardtable {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+        .player-cards {
+            border: 3px solid rgba(65, 200, 210, 0.511);
+            padding: 10px;
+            width: 17%;
+            text-align: center;
+        }
+        .opponent-cards {
+            border: 3px solid rgba(220, 44, 32, 0.413);
+            padding: 10px;
+            width: 17%;
+            text-align: center;
+        }
+        .number-cards {
+            border: 3px solid rgb(184, 84, 215);
+            padding: 10px;
+            width: 50%;
+            height: 70%;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body style=" background-image: url('../../static/inf.jpg');background-size: 100%;">
+    <div style="align-items: center;" id="game">
+        <div id="card" class="cardtable">
+            <!-- <span class="left-align" style="color: aliceblue;">당신의 카드: <img src="{{my_card}}" width="200px"></span>
+            <span class="right-align" style="color: aliceblue;">상대의 카드: <img src="{{your_card}}" width="200px"></span> -->
+            <div class="player-cards">
+                <h2 style="color: aliceblue;">내 카드</h2>
+                <!-- 여기에 내 카드를 나타내는 HTML 코드를 추가하세요 -->
+                <img src="{{my_card}}" width="200px">
+                <p style="text-align:left; color: aliceblue;">포스 : {{my_force}}</p>
+            </div>
+            <div class="number-cards">
+                
+            </div>
+            <div class="opponent-cards">
+                <h2 style="color: aliceblue;"><a style="color: rgb(222, 28, 14);">상대</a> 카드</h2>
+                <!-- 여기에 상대 카드를 나타내는 HTML 코드를 추가하세요 -->
+                <img src="{{your_card}}" width="200px">
+                <p style="text-align:left; color: aliceblue;">포스 : {{your_force}}</p>
+            </div>
+
+        </div>
+        
+
+        <!-- <div id="output" style="color: aqua;font-size: xx-large;" ></div> -->
+
+            <!-- 사칙연산 버튼 -->
+            <div class="button-group">
+                <button onclick="addToOutput('+')">+</button>
+                <button onclick="addToOutput('-')">-</button>
+                <button onclick="addToOutput('×')">×</button>
+                <button onclick="addToOutput('÷')">÷</button>
+                <!-- backspace 버튼 추가 -->
+                <button onclick="backspace()">지우개</button>
+            </div>
+            <script>
+                var imageContainer = document.getElementById("imageContainer");
+                var imageCount = 0;
+
+                
+                function addToOutput(character) {
+                    var outputElement = document.getElementById("output");
+                    outputElement.textContent += character;
+                }
+                function backspace() {
+                    var outputElement = document.getElementById("output");
+                    var currentText = outputElement.textContent;
+                    if (currentText.length > 0) {
+                        outputElement.textContent = currentText.substring(0, currentText.length - 1);
+                    }
+                }
+            </script>
+            </div>
+        <div id="output" style="color: aqua;font-size: xx-large;"></div>
+</body>
+</html>
